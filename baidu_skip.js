@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         百度优化+百家号自动展开
+// @name         百度优化+自动展开
 // @namespace    http://tampermonkey.net/
 // @version      0.0.1
 // @description  优化=去广告+去重定向
