@@ -5,7 +5,7 @@
 // @description  优化=去广告+去重定向
 // @author       You
 // @match        *baidu.com*
-// @icon         https://www.google.com/s2/favicons?domain=gitee.com
+// @icon         https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
 // @grant        none
 // @createTime   2020-4-10 17:30
 // @updateTime   2021-9-31 0:30
