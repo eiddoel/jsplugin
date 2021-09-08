@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name: 通用VIP视频解析-POP
 // @Author: eiddoel
-// @version: 0.0.2
+// @version: 0.0.3
 // @description: 爱奇艺、腾讯视频、优酷、乐视、芒果TV、搜狐、1905、PPTV、B站。
 // @include *://m.v.qq.com/*
 // @include *://www.v.qq.com/*
