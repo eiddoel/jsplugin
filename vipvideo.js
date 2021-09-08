@@ -21,8 +21,9 @@
 // @include *://m.pptv.com/*
 // @include *://www.bilibili.com/*
 // @include *://m.bilibili.com/*
-// @createTime: 2021-03-03 12:00:47
-// @updateTime: 2021-06-28 22:25:16
+// @createTime 2021-03-03 12:00:47
+// @updateTime 2021-06-28 22:25:16
+// @icon  https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
 // ==/UserScript==
 (function () {
     /*
