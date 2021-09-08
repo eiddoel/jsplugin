@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name: 百度优化+百家号自动展开
-// @Author: Sky
-// @version: 4.4
-// @description: 优化=去广告+去重定向
-// @include: *baidu.com*
-// @createTime: 2020-4-10 17:30
-// @updateTime: 2021-9-31 0:30
+// @name 百度优化+百家号自动展开
+// @Author Sky
+// @version 4.4
+// @description 优化=去广告+去重定向
+// @include *baidu.com*
+// @createTime 2020-4-10 17:30
+// @updateTime 2021-9-31 0:30
 // ==/UserScript==
 (function () {
     const key = encodeURIComponent("百家号自动展开:执行判断");
