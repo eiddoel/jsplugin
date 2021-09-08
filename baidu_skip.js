@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         百度优化+百家号自动展开
 // @namespace    http://tampermonkey.net/
-// @version      4.4
+// @version      0.0.1
 // @description  优化=去广告+去重定向
-// @author       You
+// @author       eiddoel
 // @match        *baidu.com*
 // @icon         https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
 // @grant        none
