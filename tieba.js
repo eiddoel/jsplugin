@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name 贴吧解除限制
 // @Author eiddoel
-// @version 0.0.1
+// @version 0.0.2
 // @description 解除不能看帖的限制，去广告
 // @include http*://*tieba.baidu.com/*
 // @createTime 2019-10-18
