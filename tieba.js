@@ -1,12 +1,12 @@
-/*
- * @name 贴吧解除限制
- * @Author Track13
- * @version 2.4.0
- * @description 解除不能看帖的限制，去广告
- * @include tieba.baidu.com
- * @createTime 2019-10-18
- * @updateTime 2020-12-24
- */
+// ==UserScript==
+// @name 贴吧解除限制
+// @Author Track13
+// @version 2.4.0
+// @description 解除不能看帖的限制，去广告
+// @include tieba.baidu.com
+// @createTime 2019-10-18
+// @updateTime 2020-12-24
+ // ==/UserScript==
 (function () {
   var whiteList = ['tieba.baidu.com', 'm.tieba.com', 'jump2.bdimg.com', 'tiebac.baidu.com', 'c.tieba.baidu.com'];
   var hostname = window.location.hostname;
