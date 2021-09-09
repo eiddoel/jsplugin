@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         百度优化+自动展开
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  优化=去广告+去重定向
 // @author       eiddoel
 // @match        http*://*.baidu.com/*
