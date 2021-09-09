@@ -4,7 +4,7 @@
 // @version      0.0.1
 // @description  优化=去广告+去重定向
 // @author       eiddoel
-// @match        *baidu.com*
+// @match        http*://*.baidu.com/*
 // @icon         https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
 // @grant        none
 // @createTime   2020-4-10 17:30
