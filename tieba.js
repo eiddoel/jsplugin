@@ -3,7 +3,7 @@
 // @Author eiddoel
 // @version 0.0.1
 // @description 解除不能看帖的限制，去广告
-// @include tieba.baidu.com
+// @include http*://*tieba.baidu.com/*
 // @createTime 2019-10-18
 // @updateTime 2020-12-24
 // ==/UserScript==
