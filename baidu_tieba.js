@@ -1,11 +1,11 @@
 // ==UserScript==
-// @namespace    http://tampermonkey.net/
 // @name         贴吧解除限制
+// @namespace    http://tampermonkey.net/
 // @author       eiddoel
-// @version      0.0.2
+// @version      0.0.3
 // @description  解除不能看帖的限制，去广告
 // @icon         https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
-// @include      http*://*tieba.baidu.com/*
+// @include        http*://*.baidu.com/*
 // @createTime   2019-10-18
 // @updateTime   2020-12-24
 // ==/UserScript==
