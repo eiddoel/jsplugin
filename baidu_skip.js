@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         百度优化+自动展开
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  优化=去广告+去重定向
 // @author       eiddoel
 // @match        http*://*.baidu.com/*
@@ -89,25 +89,6 @@
                   })
                 );
                 clearInterval(checkTimer);
-              }
-            }, 666);
-          } else if (
-            location.hostname == "tieba.baidu.com"
-          ) {
-            let checkCount = 0;
-            var checkTimer1 = setInterval(function () {
-              if (++checkCount > 10) {
-                clearInterval(checkTimer1);
-              }
-              let BJHbtn = document.querySelectorAll("span.tb-share__btn")[1];
-              if (BJHbtn) {
-                BJHbtn.dispatchEvent(
-                  new Event("click", {
-                    bubbles: true,
-                    cancelable: true,
-                  })
-                );
-                clearInterval(checkTimer1);
               }
             }, 666);
           } else if (location.hostname == "baike.baidu.com") {
