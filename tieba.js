@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name 贴吧解除限制
-// @Author eiddoel
-// @version 0.0.2
-// @description 解除不能看帖的限制，去广告
-// @include http*://*tieba.baidu.com/*
-// @createTime 2019-10-18
-// @updateTime 2020-12-24
+// @namespace    http://tampermonkey.net/
+// @name         贴吧解除限制
+// @author       eiddoel
+// @version      0.0.2
+// @description  解除不能看帖的限制，去广告
+// @icon         https://raw.githubusercontent.com/eiddoel/jsplugin/main/tools.png
+// @include      http*://*tieba.baidu.com/*
+// @createTime   2019-10-18
+// @updateTime   2020-12-24
 // ==/UserScript==
+
 (function () {
   var whiteList = ['tieba.baidu.com', 'm.tieba.com', 'jump2.bdimg.com', 'tiebac.baidu.com', 'c.tieba.baidu.com'];
   var hostname = window.location.hostname;
