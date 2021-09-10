@@ -72,6 +72,14 @@
               }
             }, 2500);
           } else if (
+            location.hostname == "tieba.baidu.com"
+          ) {
+              // setTimeout(() => {
+              // document.querySelector("nav.tb-backflow").remove();
+              // }, 1000);
+              css.innerText +=
+              ".tb-backflow{display:none!important;}";
+          }else if (
             location.hostname == "baijiahao.baidu.com" ||
             location.href.indexOf("mbd.baidu.com/newspage/data/") > 0
           ) {
