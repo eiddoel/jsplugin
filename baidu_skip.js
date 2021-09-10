@@ -74,9 +74,9 @@
           } else if (
             location.hostname == "tieba.baidu.com"
           ) {
-              // setTimeout(() => {
-              // document.querySelector("nav.tb-backflow").remove();
-              // }, 1000);
+              setTimeout(() => {
+                 document.body.classList.remove("tb-modal-open");
+              }, 1000);
               css.innerText +=
               ".tb-backflow{display:none!important;}";
           }else if (
